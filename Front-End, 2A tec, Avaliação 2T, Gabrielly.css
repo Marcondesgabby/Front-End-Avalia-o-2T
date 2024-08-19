@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    background-color: rgb(214, 78, 196);
+    color: rgb(255, 255, 255);
+    text-size-adjust: 40;
+
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+h2{
+    text-align: center;
+    background-color: rgb(214, 78, 196);
+    color:rgb(255, 255, 255);
+    text-size-adjust: 40;
+}
+.enviar:hover{
+    background-color: rgb(214, 78, 196);
+    transform:scale(3.0);
+}
+.enviar{
+    width: 30;
+    height: 40;
+    transition: 1s all;
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(40deg, rgb(255, 255, 255), rgb(255, 148, 228));
+}
+.foto{
+    float: right;
+    opacity: calc(0.9);
+}
+p{
+    text-size-adjust: 60;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 148, 228);
+}
+p::first-letter {
+    color: rgb(255, 0, 191);
+    font-size: 32px;
+}
